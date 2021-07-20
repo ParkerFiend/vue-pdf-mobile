@@ -30,7 +30,7 @@ import pdf from "vue-pdf";
 export default {
   // 1.Side Effects ( el )
   // 2.name/parent ( name/parent )
-  name: "vue-pdf-mobile",
+  name: "VuePdfMobile",
   // 3.Component Type ( functional )
   // 4.Template Modifiers ( delimiters/comments )
   // 5.Template Dependencies ( components/directives/filters )

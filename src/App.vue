@@ -5,7 +5,8 @@
 </template>
 
 <script>
-import VuePdfMobile from "./components/index.vue";
+// import VuePdfMobile from "../package/vue-pdf-mobile/index";
+// import VuePdfMobile from "../dist/VuePdfMobile.umd";
 
 export default {
   name: "App",

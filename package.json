@@ -1,8 +1,8 @@
 {
   "name": "@kuangmo/vue-pdf-mobile",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "基于 vue-pdf 的移动端二次封装",
-  "main": "dist/@kuangmo/VuePdfMobile.umd.min.js",
+  "main": "package/vue-pdf-mobile/main.vue",
   "keywords": [
     "vue",
     "pdf",
@@ -13,7 +13,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lib": "vue-cli-service build --target lib --name @kuangmo/VuePdfMobile ./src/components/index.vue",
+    "lib": "vue-cli-service build --target lib --name VuePdfMobile ./package/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
